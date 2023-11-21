@@ -5,7 +5,7 @@ public class Question1 {
     public static void main(String[] args) {
         final Persons person = new Persons();
         person.setPrice(100);
-        person = new Persons(); // this will throw an exception.
+//        person = new Persons(); // this will throw an exception.
         System.out.println(person.getPrice());
     }
     

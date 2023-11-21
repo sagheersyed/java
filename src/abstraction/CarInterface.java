@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class CarInterface {
     public static void main(String[] args) {
-        Audi audi1 = new Audi();
+        Audis audi1 = new Audis();
         audi1.price = 20000;
         audi1.breaks();
         audi1.details();
@@ -41,7 +41,7 @@ public class CarInterface {
     }
 } 
 
-class Audi implements Car {
+class Audis implements Car {
     String CAR_NAME = "AUDI";
     int price;
     @Override

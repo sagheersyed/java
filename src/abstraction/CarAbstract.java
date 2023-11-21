@@ -2,7 +2,7 @@ package abstraction;
 
 public class CarAbstract {
     public static void main(String[] args) {
-        Audi audi1 = new Audi();
+        Audis audi1 = new Audis();
         audi1.price = 20000;
         audi1.start();
         audi1.accelarate();

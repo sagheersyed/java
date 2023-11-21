@@ -6,11 +6,11 @@ public class Conditions {
         int x = sc.nextInt();
         int y = sc.nextInt();
         final int a = 10;
-        a = 20;
+//        a = 20;
         if(x > y) {
             int c = 'a';
             System.out.println("x is greater");
-        };
+        }
         else if(x < y){
             System.out.println("x is lesser");
         }

@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
 class Main {
     int a = 10;
     int b = 20;
@@ -13,9 +16,11 @@ class Main {
     }
 
     public static void main(String[] args) {
-        Main m = new Main();
-        int sum = m.sumTwoNumbers(-1 , 2);
-        System.out.println(sum);
-        System.out.println("hello world");
+//        Main m = new Main();
+//        int sum = m.sumTwoNumbers(-1 , 2);
+//        System.out.println(sum);
+//        System.out.println("hello world");
+            String input = "iloveprogramming";
+        System.out.println(Arrays.stream(input.split("")));
     }
 }

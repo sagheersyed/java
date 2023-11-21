@@ -35,9 +35,9 @@ class Person {
 public class ConceptsPractice {
     public static void main(String[] args) {
         // Person person1 = new Person(111 , "sagheer" , "sagheer@gmail.com");
-        Person person2 = new Person();
-        person2.personId = 112;
-        person2.personName = "wajid";
-        person2.personEmail = "wajid@gmail.com";
+        Persons person2 = new Persons();
+        person2.id = 112;
+        person2.name = "wajid";
+        person2.email = "wajid@gmail.com";
     }
 }

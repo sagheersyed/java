@@ -2,18 +2,18 @@ package oops;
 
 // import encapsulation.EncapsulationMain;
 
-public class Person {
+public class Persons {
     int id;
     String name;
     String email;
     static int count;
 
-    Person() {
+    Persons() {
         ++count;
         System.out.println("number of object are created from Person Prototype : " + count);
     }
 
-    Person( int PersonId , String PersonName , String PersonEmail) {
+    Persons(int PersonId , String PersonName , String PersonEmail) {
         this();
         id = PersonId;
         this.email = PersonEmail;
@@ -42,7 +42,7 @@ public class Person {
 
     public static void main(String[] args){
         // non-parametrized constructor
-        Person p1 = new Person();
+        Persons p1 = new Persons();
         p1.name = "sagheer";
         p1.id = 111;
         p1.email = "sagheer@gmail.com";
@@ -54,7 +54,7 @@ public class Person {
 
 
         // parametrized constructor
-        Person p2 = new Person(111 , "wajid" , "wajid@gmail.com");
+        Persons p2 = new Persons(111 , "wajid" , "wajid@gmail.com");
 
         p2.eat();
         p2.sleep();

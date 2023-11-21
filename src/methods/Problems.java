@@ -37,7 +37,7 @@ public class Problems {
         int negativeNumbers = 0;
         int zerosNumber = 0;
         while (true) {
-            System.out.println("Enter a number (or any non-number to stop): "2);
+            System.out.println("Enter a number (or any non-number to stop): " + 2);
             if(sc.hasNextInt()) {
                 int number = sc.nextInt();
                 if(number > 0) {
