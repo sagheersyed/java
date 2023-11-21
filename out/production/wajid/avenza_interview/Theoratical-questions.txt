@@ -1,0 +1,26 @@
+/*
+    DATA STRUCTRES:
+        1) how many types of data structures are answers 
+        2) there are many types of data structures
+        3) List , Queue , Set , Map , Iterator
+        4) what is difference between list and set
+        5) what is the use of set?
+        6) what is the use of ArrayList?
+        7) why we use Map data structure and how it internally works?
+        8) what is the time complexity of getKey()?
+        9) what is the use of Queue and Stack?
+        10) which one is fifo which one is lifo?
+        
+    OOPS concepts
+        1) what is the use of oops and we need to use it in programming.
+        2) what is polymorphism?
+        3) what is overloading?
+        4) what is overriding?
+        5) what is abstract class and why we need to use it?
+        6) how many types we can achieve abstraction
+        7) what is interface?
+        
+    DATABASE:
+        1) What is normalization and why we need to use it?
+        2) what is indexing?
+*/
